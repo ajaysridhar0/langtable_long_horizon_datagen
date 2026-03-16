@@ -1,0 +1,20 @@
+{
+  "name": "4_color_sort_random_corners",
+  "description": "Sort two blocks of each color into a randomly permuted corner mapping.",
+  "generator_flags": {
+    "num_episodes": 1,
+    "max_steps": 2000,
+    "block_mode": "BLOCK_8",
+    "task_mode": "sort_by_color",
+    "planner": "strategic",
+    "enable_clearing": true,
+    "shuffle_tasks": false,
+    "instruction_style": "high_level",
+    "save_video": false,
+    "target_distance": 0.1,
+    "color_corner_map": "default",
+    "randomize_color_corner_map": true,
+    "require_success": true,
+    "max_episode_attempts": 50
+  }
+}

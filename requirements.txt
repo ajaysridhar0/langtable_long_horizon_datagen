@@ -1,0 +1,10 @@
+absl-py
+gym<=0.23.0
+imageio
+matplotlib
+numpy
+opencv-python
+protobuf
+pybullet
+scipy
+six

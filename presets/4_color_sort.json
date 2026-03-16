@@ -1,0 +1,32 @@
+{
+  "name": "4_color_sort",
+  "description": "4-color corner015 deterministic noclear/norecover preset used by the corner015 pipeline.",
+  "generator_flags": {
+    "num_episodes": 1,
+    "max_steps": 600,
+    "block_mode": "BLOCK_8",
+    "task_mode": "sort_by_color",
+    "planner": "strategic",
+    "subtask_label_mode": "color_region_then_into",
+    "second_same_color_into_block": false,
+    "into_block_distance": 0.05,
+    "subtask_completion_distance": 0.035,
+    "enable_clearing": false,
+    "max_dynamic_inserts": 0,
+    "shuffle_tasks": false,
+    "instruction_style": "high_level",
+    "save_video": false,
+    "target_distance": 0.1,
+    "target_workspace_inset": 0.05,
+    "cluster_spacing": 0.02,
+    "color_corner_map": "default",
+    "randomize_color_corner_map": false,
+    "success_mode": "corner_radius",
+    "corner_success_radius": 0.15,
+    "avoid_goal_regions_on_reset": true,
+    "avoid_goal_region_margin": 0.15,
+    "require_success": true,
+    "max_episode_attempts": 50,
+    "early_stop_on_success": false
+  }
+}

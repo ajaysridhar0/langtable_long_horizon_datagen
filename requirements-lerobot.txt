@@ -1,0 +1,3 @@
+-r requirements.txt
+lerobot<0.4.0
+pyarrow
