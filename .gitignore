@@ -1,4 +1,6 @@
 .venv/
+.venv-e2e/
 __pycache__/
 *.pyc
 data/
+artifacts/
